@@ -15,22 +15,20 @@ import MetaLogo from "../Resources/Img/main_icon.svg";
 import { Link } from "react-router-dom";
 import { navData } from "../Data/navData";
 
-import {
-  CloseRounded,
-  ArrowForwardIosRounded,
-  MenuOpenRounded,
-} from "@mui/icons-material";
-import {
-  Avatar,
-  DialogContent,
-  Drawer,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemSecondaryAction,
-  ListItemText,
-  ListSubheader,
-} from "@mui/material";
+import CloseRounded from "@mui/icons-material/CloseRounded"
+import ArrowForwardIosRounded from "@mui/icons-material/ArrowForwardIosRounded"
+import MenuOpenRounded from "@mui/icons-material/MenuOpenRounded"
+
+import Avatar from "@mui/material/Avatar"
+import DialogContent from "@mui/material/DialogContent"
+import Drawer from "@mui/material/Drawer"
+import List from "@mui/material/List"
+import ListItem from "@mui/material/ListItem"
+import ListItemAvatar from "@mui/material/ListItemAvatar"
+import ListItemSecondaryAction from "@mui/material/ListItemSecondaryAction"
+import ListItemText from "@mui/material/ListItemText"
+import ListSubheader from "@mui/material/ListSubheader"
+import Toolbar from "@mui/material/Toolbar"
 
 import MetaMaskFox from "../Resources/Img/MetaMask_Fox.svg";
 import WalletConnect from "../Resources/Img/walletconnect_logo.png";
@@ -145,7 +143,7 @@ const NavBar = () => {
   return (
     <Container maxWidth="xl">
       <Box
-        py="43px"
+        py={{xs:"21px",md:"43px"}}
         display="flex"
         alignItems="center"
         justifyContent="space-between"
@@ -187,6 +185,7 @@ const NavBar = () => {
       {mdDown && (
         <Drawer anchor="right" open={menuOpen} onClose={closeMenu}>
           <Box minWidth="300px">
+            <Toolbar />
             <List>
               {navData.map(({ text, url }, index) => (
                 <ListItem
