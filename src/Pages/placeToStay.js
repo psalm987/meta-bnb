@@ -19,8 +19,10 @@ const categories = [
   "Farm",
 ];
 
+const locations = ["Location"]
+
 const PlaceToStay = () => {
-  const [location, setLocation] = React.useState(categories[0]);
+  const [location, setLocation] = React.useState(locations[0]);
   return (
     <Container maxWidth="xl" sx={{ my: { xs: 6, md: 12 } }}>
       <Box display="flex" gap={2} alignItems="center" mb={{ xs: 6, md: 10 }}>
@@ -36,7 +38,7 @@ const PlaceToStay = () => {
         <UnstyledSelectIntroduction
           value={location}
           onChange={(e, val) => setLocation(val)}
-          values={categories}
+          values={locations}
         />
       </Box>
       <Grid container spacing={8}>
