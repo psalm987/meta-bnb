@@ -11,7 +11,7 @@ const OrgsSection = () => {
   const theme = useTheme();
   const md = useMediaQuery(theme.breakpoints.up("md"));
   return (
-    <Box bgcolor="primary.main" p={3}>
+    <Box bgcolor="primary.main" p={3} display={{xs:"none", sm:"block"}}>
       <Container
         maxWidth="xl"
         sx={{
