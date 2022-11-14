@@ -13,6 +13,7 @@ const NFTSection = () => {
         <Box
           display={{ md: "grid", xs: "flex" }}
           flexDirection="column-reverse"
+          overflowX="hidden"
           gap={8}
           gridTemplateColumns="40% 60%"
           alignItems="center"
