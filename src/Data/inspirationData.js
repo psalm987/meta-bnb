@@ -1,0 +1,58 @@
+export const inspirationData = [
+  {
+    img: "1.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "2.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "3.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "4.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "5.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "6.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "7.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+  {
+    img: "8.png",
+    name: "Desert king",
+    type: "1MBT per night",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+  },
+];
